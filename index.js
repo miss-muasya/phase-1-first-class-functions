@@ -1,14 +1,12 @@
-function receivesAFunction(funcValue){
-    funcValue()
+
+function receivesAFunction(funX){
+    funX();
 }
 
 function returnsANamedFunction(){
-    return function nameFunction () {
-
-    }
+    return (function fn(){})
 }
 
 function returnsAnAnonymousFunction(){
-    return function (){
-    }
+    return(()=>{})
 }
