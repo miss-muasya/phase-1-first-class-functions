@@ -5,7 +5,6 @@ function receivesAFunction(funcValue){
 
 function returnsANamedFunction(){
     return function nameFunction () {
-
     }
 }
 
